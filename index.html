@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hack Club Journey</title>
+    <link rel="stylesheet" href="styles.css"> <!--Tells the site to use the styles.css file for styling-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Preconnects to the Google Fonts API to load the font faster-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--Preconnects to the Google Fonts API to load the font faster-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet"> <!--Tells the site to use the Poppins font from Google Fonts (Read Online that it looks better)-->
+</head>
+
+<body>
+    <header>
+        <h1>My Hack Club Journey</h1>
+        <p>Documenting my coding adventures and milestones</p>
+    </header>
+
+    <section class="timeline">
+        <div class="container">
+            <div class="timeline-item">
+                <h2>Getting Started</h2>
+                <p>My journey began with a passion for technology and a desire to learn coding...</p>
+                <button onclick="toggleDetails(this)">Read More</button>
+                <div class="details">
+                    <p>This is where I discovered Hack Club, a community of young coders...</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <h2>First Hackathon</h2>
+                <p>I participated in my first hackathon with a team of like-minded peers...</p>
+                <button onclick="toggleDetails(this)">Read More</button>
+                <div class="details">
+                    <p>We built an amazing project that taught me a lot about collaboration...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Hack Club Journey. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
